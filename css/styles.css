@@ -32,7 +32,7 @@ html {
 
 .slide {
 	width: 100%;
-	height: 600px;
+	height: 800px;
 	margin-top: 60px;
 }
 
@@ -46,13 +46,15 @@ html {
 .mdl-card__actions {
 	height: 52px;
 	padding: 16px;
-	background: rgba(0, 0, 0, 0.2);
+	background: rgba(0, 0, 0, 0.6);
 }
 
-.filename {
-	color: royalblue;
+.filename a {
+	text-decoration: none;
+	color: #fff;
 	font-size: 16px;
 	font-weight: 500;
+	font-family: 'Droid Serif', serif;
 }
 
 
