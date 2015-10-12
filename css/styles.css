@@ -58,11 +58,10 @@ html {
 
 /* footer */
 
-.mdl-mega-footer__middle-section,
-.mdl-mega-footer__bottom-section {
+.mdl-mini-footer__left-section {
 	margin-left: 100px;
 }
 
-.mdl-mega-footer__link-list li:hover {
+.mdl-mini-footer__link-list li:hover {
 	color: royalblue;
 }
