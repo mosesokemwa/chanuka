@@ -1,0 +1,29 @@
+    /*Your Custom Style sheet goes here*/
+html {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+#home {
+/*	background-color: royalblue;*/
+	height: 400px;
+}
+.demo {
+/*  background: url('../images/chanuka_logo-4.png') center/ cover;*/
+	background-color: royalblue;
+	height: 400px;
+}
+.png {
+	margin-top: 30px;
+	
+}
+.demo .mdl-layout__header,
+.demo .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+.mdl-navigation__link {
+	margin-top: 60px;
+	font-size: 20px;
+	text-align: center;
+	
+}
