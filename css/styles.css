@@ -72,13 +72,33 @@ html {
 	color: royalblue;
 }
 
-.ion-social-twitter,
-.ion-social-facebook {
-	font-size: 40px;
+
+		/* about.html */
+
+footer {
+	background-color: gray;
+}
+
+.footer {
+	text-align: center;
+	height: 160px;
+	text-decoration-line: underline;
+	margin-bottom: 0;
+}
+.footer .icon {
 	color: royalblue;
+	font-size: 100px;
+	margin-left: 60px;
 }
 
 .ion-social-googleplus {
 	color: red;
 	font-size: 40px;
+}
+
+.footer .icon:hover {
+	color: #fff;
+}
+.foot i {
+	color: #fff;
 }
