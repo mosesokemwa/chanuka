@@ -57,6 +57,10 @@ html {
 	font-family: 'Droid Serif', serif;
 }
 
+.filename a:hover {
+	color: blue;
+}
+
 
 /* footer */
 
@@ -66,4 +70,15 @@ html {
 
 .mdl-mini-footer__link-list li:hover {
 	color: royalblue;
+}
+
+.ion-social-twitter,
+.ion-social-facebook {
+	font-size: 40px;
+	color: royalblue;
+}
+
+.ion-social-googleplus {
+	color: red;
+	font-size: 40px;
 }
