@@ -44,7 +44,8 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Raleway|Droid+Serif|Poiret+One" rel="stylesheet" type="text/css">
 	<!--Ionic icons-->
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+	crossorigin="anonymous">
 	<link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
 	<!-- Materialize components
                         Choose color scheme from getmdl.io website by clicking on this link to edit the default css file.
@@ -60,7 +61,7 @@
 		var _gaq = _gaq || [];
 		_gaq.push(['_setAccount', 'UA-XXXXXXXX-Y']);
 		_gaq.push(['_trackPageview']);
-		(function () {
+		(function() {
 			var ga = document.createElement('script');
 			ga.type = 'text/javascript';
 			ga.async = true;
@@ -83,7 +84,9 @@
 		<header class="demo mdl-layout__header mdl-layout__header--scroll">
 			<div class="mdl-layout__header-row">
 				<!-- Title -->
-				<span class="mdl-layout-title"><img src="images/chanuka_logo-4.png" class="png"></span>
+				<span class="mdl-layout-title">
+					<img src="images/chanuka_logo-4.png" class="png">
+				</span>
 				<!-- Add spacer, to align navigation to the right -->
 				<div class="mdl-layout-spacer"></div>
 				<!-- Navigation -->
@@ -102,17 +105,38 @@
 	<!--./demo mdl-layout mdl-js-layout-->
 
 
-				<!--main content-->
+	<!--main content-->
 
 	<main class="mdl-layout__content">
-
 		<div class="mdl-grid">
 			<div class="mdl-cell mdl-cell--12-col">
 				<img src="images/2015-plain.jpg" class="slide">
 			</div>
-		</div><!--./mdl-grid-->
+		</div>
+		<div class="mdl-grid">
+			<div class="mdl-cell mdl-cell--2-col"></div>
+			<div class="mdl-cell mdl-cell--8-col">
+				<h4>About i</h4>
+				<p>Oh come, let's sing to Yahweh. Let's shout aloud to the rock of our salvation!
+					<br>Let's come before his presence with thanksgiving. Let's extol him with songs!
+					<br> For Yahweh is a great God, a great King above all gods. In his hand
+					<br>are the deep places of the earth. The heights of the mountains are also his. The sea
+					<br> is his, and he made it. His hands formed the dry land. Oh come,
+					<br> let's worship and bow down. Let's kneel before Yahweh, our Maker, for he is our
+					<br> God. We are the people of his pasture, and the sheep in his care. Today, oh that you
+					<br> would hear his voice! Don't harden your heart, as at Meribah,
+					<br> as in the day of Massah in the wilderness, when your fathers tempted me, tested me,
+					<br>and saw my work. Forty long years I was grieved with that generation,
+					<br>and said, It is a people that errs in their heart. They have not known my ways.
+					<br>Therefore I swore in my wrath, They won't enter into my rest.</p>
+			</div>
+			<div class="mdl-cell mdl-cell--2-col"></div>
 
-					<!-- #slider / cover photos -->
+		</div>
+
+		<!--./mdl-grid-->
+
+		<!-- #slider / cover photos -->
 
 
 		<div class="mdl-grid">
@@ -143,12 +167,13 @@
 				<div class="mdl-card__title mdl-card--expand"></div>
 
 			</div>
-		</div><!--./mdl-grid-->
+		</div>
+		<!--./mdl-grid-->
 
 	</main>
 
 
-				<!-- footer section -->
+	<!-- footer section -->
 
 	<footer class="mdl-mini-footer">
 		<div class="container footer">
@@ -173,7 +198,7 @@
 
 
 
-				<!--   After all html content Your scripts -->
+	<!--   After all html content Your scripts -->
 
 	<!--Linked to your local project scripts that are located within the project: js-->
 	<script src="js/script.js" type="text/javascript"></script>
