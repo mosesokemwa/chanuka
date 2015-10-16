@@ -35,26 +35,36 @@ html {
 }
 .mdl-grid .mdl-cell--8-col {
   padding-bottom: 30px;
-  padding-top: 30px;
+  /*padding-top: 30px;*/
   border-bottom: 2px solid black;
   border-top: 2px solid black;
   margin-bottom: 50px;
   text-rendering: optimizeLegibility;
 }
-.mdl-grid .mdl-cell--8-col h4 {
+.mdl-grid .mdl-cell--8-col h4, .mdl-grid .mdl-cell--12-col h3 {
   text-align: center;
   text-shadow: 3px 3px 20px rgba(0, 0, 0, 0.8);
   font-family: Roboto-condesed, sans-serif;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 600;
   color: royalblue;
 }
-.mdl-grid .mdl-cell--8-col p {
+.mdl-grid .mdl-cell--8-col p, .mdl-grid .mdl-cell--12-col p {
   font-family: Open-Sans, serif;
   font-weight: 300;
   font-size: 20px;
   text-align: center;
-  /*	letter-spacing: .1em;*/
+}
+.mdl-grid .mdl-cell--12-col p {
+  border-bottom: 2px solid black;
+  padding-bottom: 50px;
+  /*margin-left: 60px;*/
+}
+.mdl-grid .mdl-cell--12-col ul {
+  text-align: center;
+}
+.mdl-grid .mdl-cell--12-col ul li {
+  display: inline-block;
 }
 .one {
   margin-left: 80px;
