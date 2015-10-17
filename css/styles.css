@@ -41,35 +41,36 @@ html {
   margin-bottom: 50px;
   text-rendering: optimizeLegibility;
 }
-.mdl-grid .mdl-cell--8-col h4, .mdl-grid .mdl-cell--12-col h3 {
+.mdl-cell--8-col h4, .mdl-cell--12-col h3 {
   text-align: center;
-  text-shadow: 3px 3px 20px rgba(0, 0, 0, 0.8);
+  text-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
   font-family: Roboto-condesed, sans-serif;
   font-size: 40px;
   font-weight: 600;
   color: royalblue;
+  /*margin-top: 30px;*/
 }
-.mdl-grid .mdl-cell--8-col p, .mdl-grid .mdl-cell--12-col p {
+.mdl-cell--8-col p, .mdl-cell--12-col p {
   font-family: Open-Sans, serif;
   font-weight: 300;
   font-size: 20px;
   text-align: center;
 }
-.mdl-grid .mdl-cell--12-col p {
-  border-bottom: 2px solid black;
+.mdl-cell--12-col p, .p {
+  border-bottom: 1px solid black;
   padding-bottom: 50px;
-  /*margin-left: 60px;*/
 }
-.mdl-grid .mdl-cell--12-col ul {
+.mdl-cell--12-col .cv ul {
   text-align: center;
 }
-.mdl-grid .mdl-cell--12-col ul li {
-  display: inline-block;
+.mdl-cell--12-col .cv li {
+  font-size: 15px;
+  margin-bottom: 12px;
+  list-style: none;
 }
 .one {
-  margin-left: 80px;
-  width: 340px;
-  height: 340px;
+  width: fit-content;
+  height: 440px;
   background: url('../images/2015.jpg') center / cover;
 }
 .two {
