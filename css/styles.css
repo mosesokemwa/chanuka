@@ -14,7 +14,15 @@ html {
 }
 .demo .mdl-layout__header, .demo .mdl-layout__drawer-button {
   color: black;
-  ;
+}
+.mdl-layout__drawer {
+  height: 400px;
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-position: left;
+}
+img.draw {
+  width: 180px;
 }
 .mdl-navigation__link {
   margin-top: 60px;
@@ -120,3 +128,10 @@ footer {
 .foot i {
   color: #fff;
 }
+
+
+ /*custom */
+ .mdl-cell--8-col .pop {
+   border-radius: 60px solid black;
+   height: 600px;
+ }
