@@ -1,13 +1,19 @@
 /*Your Custom Style sheet goes here*/
 
-html {
+body {
   font-family: 'Roboto Condensed', sans-serif;
+	background-color: #f2f2f2;
 }
 
 /* #home */
 
 .demo {
   height: 100px;
+}
+.back {
+	background-image: url("https://fbcdn-photos-a-a.akamaihd.net/hphotos-ak-xta1/v/t1.0-0/p206x206/12140805_911232468955166_1116880274007928314_n.jpg?oh=0b4dd4f52ace81493aea6e83212e1602&oe=56CB2A98&__gda__=1455336941_59789e8bfffee8c0248c497b329d1119");
+	height: 600px;
+	width: 100%;
 }
 .png {
   margin-top: 30px;
